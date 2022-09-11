@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/aws-ansible.iml" filepath="$PROJECT_DIR$/aws-ansible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vars/vars.iml" filepath="$PROJECT_DIR$/vars/vars.iml" />
     </modules>
   </component>
 </project>
