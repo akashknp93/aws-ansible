@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2f53cd5-52a7-4e3e-afef-75a192fb07ed" name="Changes" comment="staging vpc variables">
-      <change afterPath="$PROJECT_DIR$/vpc-setup.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b2f53cd5-52a7-4e3e-afef-75a192fb07ed" name="Changes" comment="corrected indendation" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +56,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662883799096</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create VPC and subnets">
+      <created>1662958908954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662958908954</updated>
+    </task>
+    <task id="LOCAL-00004" summary="corrected indendation">
+      <created>1662959126622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662959126622</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +86,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="staging vpc variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="staging vpc variables" />
+    <MESSAGE value="create VPC and subnets" />
+    <MESSAGE value="corrected indendation" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected indendation" />
   </component>
 </project>
