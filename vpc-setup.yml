@@ -7,13 +7,13 @@
 
       - name: Create staging VPC
         ec2_vpc_net:
-          name: "{{ vpc_name }}
-          cidr_block: "{{ vpcCidr }}"
-          region: "{{ region }}"
+          name: "{{vpc_name}}
+          cidr_block: "{{vpcCidr}}"
+          region: "{{region}}"
           dns_support: yes
           dns_hostnames: yes
           tenancy: default
-          state: "{{ state }}"
+          state: "{{state}}"
         register: vpcout
 
       - name: create Public Subnet 1 in Zone1

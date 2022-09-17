@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2f53cd5-52a7-4e3e-afef-75a192fb07ed" name="Changes" comment="corrected indentation for improting VPC variables">
+    <list default="true" id="b2f53cd5-52a7-4e3e-afef-75a192fb07ed" name="Changes" comment="corrected jinja">
       <change beforePath="$PROJECT_DIR$/vpc-setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vpc-setup.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663410149384</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="corrected jinja">
+      <created>1663410852423</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663410852423</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +136,7 @@
     <MESSAGE value="added bastion instance" />
     <MESSAGE value="updated ami and zone" />
     <MESSAGE value="corrected indentation for improting VPC variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected indentation for improting VPC variables" />
+    <MESSAGE value="corrected jinja" />
+    <option name="LAST_COMMIT_MESSAGE" value="corrected jinja" />
   </component>
 </project>
