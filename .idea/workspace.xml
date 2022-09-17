@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2f53cd5-52a7-4e3e-afef-75a192fb07ed" name="Changes" comment="corrected indendation">
+    <list default="true" id="b2f53cd5-52a7-4e3e-afef-75a192fb07ed" name="Changes" comment="added bastion instance">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vpc-setup.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vpc-setup.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/bastion_setup" beforeDir="false" afterPath="$PROJECT_DIR$/vars/bastion_setup" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662960850275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added nat gateway">
+      <created>1663404568751</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663404568751</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added bastion instance">
+      <created>1663404863143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663404863143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +112,8 @@
     <MESSAGE value="staging vpc variables" />
     <MESSAGE value="create VPC and subnets" />
     <MESSAGE value="corrected indendation" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected indendation" />
+    <MESSAGE value="added nat gateway" />
+    <MESSAGE value="added bastion instance" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bastion instance" />
   </component>
 </project>
