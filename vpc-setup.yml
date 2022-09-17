@@ -72,7 +72,7 @@
           cidr: "{{ PrivSub2Cidr }}"
           tags:
               name: staging_privsub2
-          register: privsub2_out
+        register: privsub2_out
 
       - name: create Private subnet 3 in zone3
         ec2_vpc_subnet:
