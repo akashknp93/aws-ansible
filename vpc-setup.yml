@@ -7,7 +7,7 @@
 
       - name: Create staging VPC
         ec2_vpc_net:
-          name: "{{vpc_name}}
+          name: "{{vpc_name}}"
           cidr_block: "{{vpcCidr}}"
           region: "{{region}}"
           dns_support: yes
@@ -46,7 +46,7 @@
           region: "{{ region }}"
           az: "{{ zone3 }}"
           state: "{{ state }}"
-          cidr: "{{ PubSub3Cidr }}
+          cidr: "{{ PubSub3Cidr }}"
           map_public: yes
           tags:
               name: staging_pubsub3
@@ -68,7 +68,7 @@
           vpc_id: "{{ vpcout.vpc.id }}"
           region: "{{ region }}"
           az: "{{ zone2 }}"
-          state: "{{state}}
+          state: "{{state}}"
           cidr: "{{ PrivSub2Cidr }}"
           tags:
               name: staging_privsub2
